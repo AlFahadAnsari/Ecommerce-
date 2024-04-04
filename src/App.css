@@ -96,6 +96,47 @@ code {
   cursor: pointer;
 }
 
+/* Custom CSS for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust card width for smaller screens */
+ #addToCartscss{
+  position: relative;
+  width: 50%;
+  height: 50%;
+ }
+ #addToCartscss img{
+  object-fit: contain;
+ }
+}
+
+
+
+@media (max-width: 479px) {
+  /* Adjust card width for smaller screens */
+ #addToCartscss{
+  position: relative;
+  width: 100%;
+ }
+ #addToCartscss img{
+  object-fit: contain;
+ }
+}
+
+
+
+@media (max-width: 390px)  {
+  /* Adjust card width for smaller screens */
+ #addToCartscss{
+  position: relative;
+  width: 100%;
+ }
+ #addToCartscss img{
+  object-fit: contain;
+ }
+}
+
+
+
 
 #Addtocart{
   display: flex;
