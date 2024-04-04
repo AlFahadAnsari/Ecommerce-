@@ -35,11 +35,40 @@ code {
   text-transform: capitalize;
 }
 
-/* @media screen and (max-width: 390px) {
-  #cards{
-      margin: 10px;
+.container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items {
+  flex-basis: 25%; /* Each item takes up 25% of the container width by default */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .items {
+    flex-basis: 50%; /* Each item takes up 50% of the container width on smaller screens */
   }
-} */
+  #productsss{
+   margin-left: 21%;
+  }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 479px) {
+  .items {
+    flex-basis: 30%; /* Each item takes up 100% of the container width on even smaller screens */
+  }
+  /* #productsss{
+    margin-right: %;
+   } */
+
+   #productsss{
+    margin-left: 15%;
+   }
+}
 
 
 .img{
