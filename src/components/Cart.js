@@ -21,7 +21,7 @@ export default function Cart({cart , setCart}) {
                 cart.map((e) => {
                     return (
                         <>
-                            <div className="card my-3" style={{width: "770px"}}>
+                            <div className="card my-3"  id='addToCartscss'>
                                 <img src={e.imgSrc}   className="img-fluid rounded-start"  alt="..." id='cartimg'/>
                                     <div className="card-body"  >
                                         <h5 className="card-title">{e.title}</h5>
